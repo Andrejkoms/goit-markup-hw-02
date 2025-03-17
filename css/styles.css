@@ -1,11 +1,11 @@
 .styles-holder {}
 
-.container {}
+.container {width: 1440px;
+    height: 3300px;}
 
 /*---HEADER---*/
 .header {}
 
-.header-navigation {}
 
     .header-logo {
         color: var(--NAVY-BLUE, #2E2F42);
@@ -14,22 +14,12 @@
         font-style: normal;
         font-weight: 700;
         line-height: 21px;
-        text-transform: uppercase;
+        width: 71px;
         letter-spacing: 0.54px;
-   }
-
-    .container {
-        width: 1440px;
-        height: 3300px;
+        text-transform: uppercase;
     }
 
-    .header {}
-
-    .header-navigation {}
-
-    .header-logo {}
-
-    .header-logo-iris {
+    .header-iris {
         color: var(--IRIS, #4D5AE5);
         font-family: Raleway;
         font-size: 18px;
@@ -198,24 +188,7 @@
         letter-spacing: 0.72px;
     }
 
-    .navigation-list {}
-
-    .navigation-item {}
-
-    .navigation-logo {}
-
-    .navigation-img {}
-
-    .navigation-item-text {}
-
-    .footer {}
-
-    .footer-contener {}
-
-    .footer-logo-iris {}
-
-    .footer-text {}}
-
+    
 .header-logo-iris {}
 
 .header-menu-list {}
@@ -238,17 +211,6 @@
 
 .features-item-text {}
 
-.gallery-box {}
-
-.gallery {}
-
-.gallery-list {}
-
-.gallery-item {}
-
-.gallery-img {}
-
-.gallery-item-text {}
 
 .navigation {}
 
