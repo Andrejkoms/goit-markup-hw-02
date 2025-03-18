@@ -6,9 +6,18 @@
        background-color: #FFFFFF;
    }
 
+   body {
+       font-family: "Roboto", sans-serif;
+       color: #434455;
+       background-color: #FFFFFF;
+   }
+   button {
+       font-family: inherit;
+   }
+
    /*---HEADER---*/
 
-   .header-logo {
+   .header-studio {
        color: #2E2F42;
        font-family: "Raleway", sans-serif;
        font-size: 18px;
@@ -18,7 +27,7 @@
        text-transform: uppercase;
    }
 
-   .header-logo-span {
+   .header-web-span {
        color: #4D5AE5;
    }
 
@@ -126,8 +135,46 @@
 
    .gallery-item p {
        font-size: 16px;
-       color: #434455;
+       color: #344455;
    }
+   /*---PORFOLIO---*/
+   
+   .portfolio-title {
+        color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+       letter-spacing: 0.72px;
+    }
+
+    .portfolio-list {}
+
+    .portfolio-item {}
+
+    .portfolio-content {
+        color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+    }
+
+    .portfolio-img {}
+
+    .portfolio-item-text {
+        color: var(--SLATE, #434455);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+    }
 
    /*---FOOTER---*/
    .footer {
@@ -136,15 +183,17 @@
        padding: 40px 0;
    }
 
-   .footer-logo {
+   .footer-studio {
        font-family: "Raleway", sans-serif;
        font-size: 18px;
        font-weight: 700;
+       line-height: 1.17;
+       letter-spacing: 0.03em;
        text-transform: uppercase;
-       color: #F4F4FD;
+       color: #f4f4fd;
    }
 
-   .footer-logo-span {
+   .footer-web-span {
        color: #4D5AE5;
    }
 
