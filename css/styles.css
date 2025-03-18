@@ -155,6 +155,7 @@
     .portfolio-item {}
 
     .portfolio-content {
+        text-transform: capitalize;
         color: var(--NAVY-BLUE, #2E2F42);
         font-family: Roboto;
         font-size: 20px;
@@ -183,14 +184,14 @@
        padding: 40px 0;
    }
 
-   .footer-studio {
+   .footer-subtitle {
        font-family: "Raleway", sans-serif;
        font-size: 18px;
        font-weight: 700;
-       line-height: 1.17;
+       line-height: 1.15;
        letter-spacing: 0.03em;
        text-transform: uppercase;
-       color: #f4f4fd;
+       color: #F4F4FD;
    }
 
    .footer-web-span {
@@ -200,4 +201,5 @@
    .footer-text {
        font-size: 16px;
        color: #F4F4FD;
+       letter-spacing: 0.02em;
    }
