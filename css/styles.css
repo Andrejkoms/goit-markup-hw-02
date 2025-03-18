@@ -1,11 +1,19 @@
-.styles-holder {}
+   .styles-holder {
+   }
 
-.container {width: 1440px;
-    height: 3300px;}
+   .container { 
+        width: 1440px;
+        height: 3300px;
+        font-family:"Roboto";
+        background-color:#FFFFFF;
+    }
+   /*---HEADER---*/
 
-/*---HEADER---*/
-.header {}
-
+    .header-image { 
+        width: 1440px;
+        height: 600px;
+        flex-shrink: 0;
+    }
 
     .header-logo {
         color: var(--NAVY-BLUE, #2E2F42);
@@ -33,7 +41,8 @@
     .header-menu-list {
         display: inline-flex;
         align-items: flex-start;
-        gap: 40px;}
+        gap: 40px;
+    }
 
     .header-menu-link {
         color: var(--NAVY-BLUE, #2E2F42);
@@ -91,9 +100,8 @@
         line-height: 24px;
         letter-spacing: 0.64px;}
 
+        /*---FEATURES---*/
     .features-menu-list {
-       
-      
     }
 
     .features-item {
@@ -123,9 +131,7 @@
     /*---GALLERY---*/
 
     .gallery-box {
-        width: 1440px;
-        height: 732px;
-        flex-shrink: 0;
+  
     }
 
     .gallery-subject{
