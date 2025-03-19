@@ -1,17 +1,10 @@
-  /* .container {
-       max-width: 1440px;
-       margin: 0 auto;
-       font-family: "Roboto", sans-serif;
-       color: #434455;
-       background-color: #FFFFFF;
-   }*/
-
+ 
    body {
        font-family: "Roboto", sans-serif;
        color: #434455;
        background-color: #FFFFFF;
    } 
-
+ 
    ul { list-style-type: none; }
 
     a { text-decoration: none; }
@@ -188,15 +181,14 @@
        gap: 40px;
    }
 
-   /*--.gallery-item {
-       width: 264px;
-       height: 260px;
-   }*/
-
-   /*--.gallery-item {
-        font-size: 16px;
-        color: #344455;
-     }*/
+     .box { 
+        display: flex;
+        width: 232px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+     }
 
    .gallery-name {
         font-size: 20px;
@@ -217,9 +209,7 @@
    }
 
    .gallery-title-portfolio {
-        line-height: 1.11;
-        text-align:center;
-        letter-spacing: 0.02em;
+  
     }
 
     .portfolio-list {}
