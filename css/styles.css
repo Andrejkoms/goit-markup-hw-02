@@ -142,7 +142,6 @@
    }
 
    .features-subtitle {
-        width: 264px;
        position: relative;
        font-size: 20px;
        letter-spacing: 0.02em;
@@ -173,15 +172,14 @@
    }
 
    .gallery-title {     
-        width: 162px;
-        position: relative;
-        font-size: 36px;
-        letter-spacing: 0.02em;
-        line-height: 40px;
-        display: inline-block;
-        font-family: Roboto;
-        color: #2e2f42;
+        color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
    }
 
    .gallery-list {
@@ -218,15 +216,10 @@
 
    }
 
-   .portfolio-title {
-        color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
-        font-family: Roboto;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-       letter-spacing: 0.72px;
+   .gallery-title-portfolio {
+        line-height: 1.11;
+        text-align:center;
+        letter-spacing: 0.02em;
     }
 
     .portfolio-list {}
@@ -265,7 +258,7 @@
        font-family: "Raleway", sans-serif;
        font-size: 18px;
        font-weight: 700;
-       line-height: 1.15;
+       line-height: 1.17;
        letter-spacing: 0.03em;
        text-transform: uppercase;
        color:#4D5AE5;
@@ -280,4 +273,5 @@
        font-size: 16px;
        color: #F4F4FD;
        letter-spacing: 0.02em;
+       line-height: 1.5
    }
