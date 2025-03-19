@@ -10,7 +10,13 @@
        font-family: "Roboto", sans-serif;
        color: #434455;
        background-color: #FFFFFF;
-   }
+   } 
+
+   ul { list-style-type: none; }
+
+    a { text-decoration: none; }
+
+    button {cursor:pointer ;}
 
    button {
        font-family: inherit;
@@ -25,18 +31,17 @@
        padding: 20px 40px;
     }
 
-   .header-studio {
-       color: #2E2F42;
+   .logo {
        font-family: "Raleway", sans-serif;
        font-size: 18px;
        font-weight: 700;
        line-height: 1.17;
        letter-spacing: 0.03em;
        text-transform: uppercase;
-    }
-
-   .header-web-span {
        color: #4D5AE5;
+    }
+   .logo-accent {
+    color: #2E2F42;
     }
 
    .header-menu-list {
