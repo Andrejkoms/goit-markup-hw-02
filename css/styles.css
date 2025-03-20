@@ -9,8 +9,6 @@
 
     a { text-decoration: none; }
 
-    button {cursor:pointer ;}
-
    button {
        font-family: inherit;
        cursor: pointer;
@@ -89,14 +87,18 @@
        padding: 120px 0;
    }
 
-   .hero-title {
-       font-size: 56px;
-       font-weight: 700;
-       line-height: 1.07;
-       color: #FFFFFF;
+   .title {
+   color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
    }
 
-   .hero-button {
+   .button {
        background-color: #4D5AE5;
        color: #FFFFFF;
        font-size: 16px;
@@ -105,6 +107,7 @@
        border-radius: 4px;
        border: none;
    }
+   .hero-caption {}
 
    .hero-button:hover,
    .hero-button:focus {
@@ -117,12 +120,7 @@
        padding: 60px 0;
    }
 
-   /*--.features-title {
-       font-size: 36px;
-       font-weight: 700;
-       text-transform: capitalize;
-   }--*/
-
+   
    .features-list {
        display: flex;
        justify-content: center;
@@ -152,7 +150,6 @@
        display: inline-block;
    }
     .features-text {
-    width: 264px;
         position: relative;
         font-size: 16px;
         letter-spacing: 0.02em;
@@ -170,7 +167,7 @@
        text-align: center;
    }
 
-   .gallery-title {     
+   .our {     
         color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         font-family: Roboto;
@@ -204,10 +201,15 @@
         gap: 8px;
      }
 
-   .gallery-name {
+   .name {
+        text-transform: capitalize;
+        color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Roboto;
         font-size: 20px;
+        font-style: normal;
         font-weight: 500;
-        color: #2E2F42;
+        line-height: 24px;
+        letter-spacing: 0.4px;
    }
 
    .gellery-role {
@@ -218,35 +220,13 @@
   
    /*---PORTFOLIO---*/
    
-   .portfolio {
-
-   }
-
+   .portfolio-title {}
 
     .portfolio-list {}
 
     .portfolio-item {}
 
-    .portfolio-content {
-        text-transform: capitalize;
-        color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Roboto;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.4px;
-    }
-
-    .portfolio-item-text {
-        color: var(--SLATE, #434455);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
-    }
+    .portfolio-text {}
 
    /*---FOOTER---*/
    .footer {
