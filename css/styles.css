@@ -9,10 +9,6 @@
 
     a { text-decoration: none; }
 
-   button {
-       font-family: inherit;
-       cursor: pointer;
-   }
         .container {
         width: 1440px;
         height: 3300px;}
@@ -96,6 +92,7 @@
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
+    width: 496px;
    }
 
    .button {
@@ -107,12 +104,12 @@
        border-radius: 4px;
        border: none;
    }
-   .hero-caption {}
-
    .hero-button:hover,
    .hero-button:focus {
        background-color: #404BBF;
    }
+   .caption {}
+   
 
    /*---FEATURES---*/
    .features {
@@ -121,7 +118,7 @@
    }
 
    
-   .features-list {
+   .list {
        display: flex;
        justify-content: center;
        gap: 40px;
@@ -138,7 +135,7 @@
        text-align: center;
    }
 
-   .features-subtitle {
+   .subtitle {
        position: relative;
        font-size: 20px;
        letter-spacing: 0.02em;
@@ -149,16 +146,7 @@
        text-align: left;
        display: inline-block;
    }
-    .features-text {
-        position: relative;
-        font-size: 16px;
-        letter-spacing: 0.02em;
-        line-height: 24px;
-        font-family: Roboto;
-        color: #434455;
-        text-align: left;
-        display: inline-block;
-    }
+   
 
    /*---GALLERY---*/
    .gallery {
@@ -212,21 +200,25 @@
         letter-spacing: 0.4px;
    }
 
-   .gellery-role {
+   .role {
          font-size: 16px;
         color: #434455;
    }
 
   
    /*---PORTFOLIO---*/
-   
-   .portfolio-title {}
+   .portf {
+   color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
 
-    .portfolio-list {}
-
-    .portfolio-item {}
-
-    .portfolio-text {}
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+   /* 111.111% */
+    letter-spacing: 0.72px;}
 
    /*---FOOTER---*/
    .footer {
