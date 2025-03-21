@@ -34,8 +34,9 @@
        color: #4D5AE5;
        align-items: center;
        position: relative;
+        text-transform: uppercase;
     }
-   .logo-accent {
+   .accent {
     color: #2E2F42;
     }
 
