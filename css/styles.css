@@ -9,14 +9,11 @@
 
     a { text-decoration: none; }
 
-        .container {
-    
+     .container {
     }
-
    /*---HEADER---*/
    .header {
         justify-content: space-between;
-        align-items: center;
         flex-shrink: 0;
     }
 
@@ -28,10 +25,9 @@
        letter-spacing: 0.03em;
        text-transform: uppercase;
        color: #4D5AE5;
-       align-items: center;
         text-transform: uppercase;
     }
-   .accent {
+   .logo-accent {
     color: #2E2F42;
     }
 
@@ -54,6 +50,7 @@
    }
 
    .header-address {
+    font-style: normal
    }
 
    .header-address-link {
@@ -94,7 +91,6 @@
        color: #FFFFFF;
        font-size: 16px;
        font-weight: 500;
-       border-radius: 4px;
        border: none;
        line-height: 1.5;
        letter-spacing: 0.04em;
@@ -106,19 +102,16 @@
    }
    .caption {}
    
-
    /*---FEATURES---*/
    .features {
        text-align: center;
    }
 
-   
    .list {
        justify-content: center;
    }
     
    .data {
-
         flex-shrink: 0;
    }
 
@@ -126,13 +119,11 @@
        background-color: #FFFFFF;
        text-align: center;
    }
+
    .feat {
-        flex-direction: column;
    }
-  
 
    .subtitle {
-
        font-size: 20px;
        letter-spacing: 0.02em;
        line-height: 24px;
