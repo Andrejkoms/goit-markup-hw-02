@@ -10,13 +10,12 @@
     a { text-decoration: none; }
 
         .container {
-        width: 1440px;
-        height: 3300px;}
+    
+    }
 
    /*---HEADER---*/
    .header {
     display: flex;
-        width: 1440px;
         height: 72px;
         justify-content: space-between;
         align-items: center;
@@ -131,8 +130,7 @@
    }
     
    .data {
-        width: 1128px;
-        height: 104px;
+
         flex-shrink: 0;
    }
 
