@@ -169,7 +169,7 @@
    /*---GALLERY---*/
    .gallery {
        background-color: #F4F4FD;
-       padding: 60px 0;
+       padding: 60px; 0;
        text-align: center;
    }
 
@@ -227,16 +227,19 @@
    .portf {
          color: var(--NAVY-BLUE, #2E2F42);
          text-align: center;
-         text-transform: capitalize
+         text-transform: capitalize;
          /* Header 2 */
          font-family: Roboto;
          font-size: 36px;
          font-style: normal;
          font-weight: 700;
-         line-height: 1.11
+         line-height: 1.11;
          letter-spacing: 0.72px;
    }
-    .text-app{}
+    .text-app{ 
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+   }
 
    /*---FOOTER---*/
    .footer {
