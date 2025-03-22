@@ -103,45 +103,29 @@
    
    /*---FEATURES---*/
    .features {
-       text-align: center;
    }
 
-   .list {
-       justify-content: center;
-   }
-    
-   .data {
-        flex-shrink: 0;
-   }
+   .features-list {
+   }    
 
    .features-item {
        background-color: #FFFFFF;
        text-align: center;
    }
 
-   .feat {
+   .features-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
    }
-
-   .subtitle {
-       font-size: 20px;
-       letter-spacing: 0.02em;
-       line-height: 24px;
-       font-weight: 500;
-       font-family: Roboto;
-       color: #2e2f42;
-       text-align: left;
-   }
-    .text {
-        color: var(--SLATE, #434455);
-        /* Body */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
+    .features-text {
         font-weight: 400;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;}
-   
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;}
 
    /*---GALLERY---*/
    .gallery {
