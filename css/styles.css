@@ -123,16 +123,22 @@
         color: #434455;}
 
    /*---GALLERY---*/
-
+   .gallery {
+    background-color: #F4F4FD
+   }
+   
    .gellery-subject {     
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize
         color: #2e2f42;
    }
 
    .gallery-list {
+    background-color: #FFFFFF
    }
 
    .gellery-name {
