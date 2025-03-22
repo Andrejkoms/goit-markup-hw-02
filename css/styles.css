@@ -9,15 +9,13 @@
 
     a { text-decoration: none; }
 
-     .container {
-    }
    /*---HEADER---*/
    .header {
         justify-content: space-between;
         flex-shrink: 0;
     }
 
-   .logo {
+   .header-logo {
        font-family: "Raleway", sans-serif;
        font-size: 18px;
        font-weight: 700;
@@ -34,17 +32,15 @@
    .header-menu-list {
    } 
 
-   .header-menu-link {  
+   .header-menu {  
       font-weight: 500;
        font-size: 16px;
        line-height: 1.5;
        letter-spacing: 0.02em;
        color: #2E2F42;
-       text-decoration: none;
    }
 
-   .header-menu-link:hover,
-   .header-menu-link:focus {
+   .header-menu: {
        color: #404BBF;
       
    }
