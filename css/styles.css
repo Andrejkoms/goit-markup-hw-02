@@ -40,7 +40,7 @@
        color: #2E2F42;
    }
 
-   .header-menu: {
+   .header-menu:focus {
        color: #404BBF;
       
    }
