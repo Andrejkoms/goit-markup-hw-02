@@ -29,8 +29,10 @@
     color: #2E2F42;
     }
 
-   .header-menu-list {
-   } 
+   .header-list {
+   }
+  
+  
 
    .header-menu {  
       font-weight: 500;
@@ -47,6 +49,18 @@
    .header-address {
     font-style: normal
    }
+    .header-menu-address {
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 150%;
+       letter-spacing: 0.02em;
+       color: #434455;
+    }
+
+   .header-menu-address:hover:hover,
+   .header-menu-address {
+         color: #404BBF;
+     }
 
    /*---HERO---*/
 
@@ -58,14 +72,11 @@
    .title {
     color: var(--WHITE, #FFF);
     text-align: center;
-
-    /* Header 1 */
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
-    /* 107.143% */
     letter-spacing: 1.12px;
     }
 
