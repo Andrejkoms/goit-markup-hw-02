@@ -69,7 +69,7 @@
        text-align: center;
    }
 
-   .title {
+   .hero-title {
     color: var(--WHITE, #FFF);
     text-align: center;
     font-family: Roboto;
@@ -80,7 +80,7 @@
     letter-spacing: 1.12px;
     }
 
-   .button {
+   .hero-bt {
        background-color: #4D5AE5;
        color: #FFFFFF;
        font-size: 16px;
@@ -90,21 +90,17 @@
        letter-spacing: 0.04em;
         cursor: pointer;
    }
-   .button:hover,
-   .button:focus {
+   .hero-bt:hover,
+   .hero-bt:focus {
        background-color: #404BBF;
    }
-   .caption {}
    
    /*---FEATURES---*/
    .features {
    }
 
    .features-list {
-   }    
-
-   .features-item {
-       background-color: #FFFFFF;
+       background-color:#FFFFFF;
        text-align: center;
    }
 
@@ -124,7 +120,7 @@
 
    /*---GALLERY---*/
    .gallery {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
    }
    
    .gellery-subject {     
@@ -161,6 +157,9 @@
 
   
    /*---PORTFOLIO---*/
+   .portfolio {
+    background-color: #FFFFFF
+   }
    .portfolio-title{
        font-weight: 700;
        font-size: 36px;
